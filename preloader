@@ -1,0 +1,41 @@
+ <!-- Meu Estilo CSS -->
+    <link rel="stylesheet" href="style\style.css">
+
+    <title>Top_Jobs_Flooring</title>
+      
+      
+      
+      <!-- INICIO preloader -->
+      <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+      
+      <script type="text/javascript">
+          
+          jQuery(window).load(function(){
+          
+          jQuery("#status").fadeOut();
+          
+          jQuery("#preloader").delay(1).fadeOut("slow");
+          
+          })
+      </script>
+        
+      <style type="text/css">
+          
+          #preloader{position: fixed;top: 0; left: 0; right: 0; bottom: 0; background: #ccc; z-index: 9999; height: 100%; width: 100%;}
+          #status{width: 920px; height: 532px; position: absolute; left: 50%; top: 50%; margin: -266px 0 0 -460px; background: url(PreLoader/Flooring2.gif) center no-repeat;}
+      </style>
+      
+    </head>
+  
+    <body style="background-image:url(img/bg.jpg)">
+        
+        <div id="preloader">
+            <div id="status">
+            </div>
+        </div>
+        <!-- FIM preloader -->
+        
+        
+                     
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      
