@@ -287,9 +287,7 @@
 
                                 Nullam turpis erat, ornare ac pellentesque posuere, tristique posuere leo. Ut vitae vehicula mauris. Fusce quis vehicula tortor. Vestibulum faucibus interdum mauris. Praesent vel urna nisl. Proin ac pretium diam. Proin sed lorem vel turpis maximus scelerisque. Ut eu ex quis dui luctus semper id in neque. Duis id tortor nec sem tincidunt ornare non sed nulla. Aliquam vitae purus sodales, lacinia nisi sit amet, efficitur tellus.
 
-                                Suspendisse potenti. Quisque nec pharetra nunc, ac vehicula odio. Integer a sodales tortor. Suspendisse suscipit tellus eu dui porta, ut posuere mauris congue. Aliquam venenatis turpis sit amet congue mollis. Cras quis luctus velit.
-                                
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend mollis diam, sit amet vestibulum sapien feugiat eu. Nam lobortis nisi sed mollis varius. Nunc finibus nulla non odio ornare efficitur. Pellentesque at feugiat massa. Nulla volutpat id lorem a aliquam. Phasellus imperdiet tincidunt fermentum. Donec facilisis eu mauris vitae finibus. Cras massa enim, hendrerit ac arcu a, rutrum lobortis nulla. Vivamus consectetur lorem sed dui condimentum efficitur.</p>
+                                Suspendisse potenti. Quisque nec pharetra nunc, ac vehicula odio. Integer a sodales tortor. Suspendisse suscipit tellus eu dui porta, ut posuere mauris congue. Aliquam venenatis turpis sit amet congue mollis. Cras quis luctus velit.</p>
                             </div>
                         </div>
                     </div>
@@ -307,8 +305,8 @@
                                     <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email">
                                 </div>
                                 <div class="form-group col-sm-2">
-                                    <label for="inputFloor" name="floor">CHOOSE</label>
-                                    <select id="inputFloor" class="fake-sel">
+                                    <label for="inputFloor">CHOOSE</label>
+                                    <select id="inputFloor" class="fake-sel" name="floor">
                                         <option selected>1</option>
                                         <option>2</option>
                                         <option>3</option>
@@ -316,24 +314,31 @@
                                     </select>
                                 </div>
                             </div>
+                                <br>
+                                <br>
                             <div class="form-row">
-                                <div class="form-group col-sm-10">
-                                    <label for="inputAddress">MESSAGE</label>
-                                    <input type="text" class="form-control" id="inputAddress" placeholder="Address" name="address">
+                                <div class="form-group col-sm-4">
+                                    <label for="inputmessage">MESSAGE<br>
+                                        <textarea name="message"></textarea>
+                                    </label>
                                 </div>
-                            </div>
-                                <div class="form-row">
-                                    <div class="form-group col-sm-9">
+                                    <div class="form-group col-sm-6">
                                         <div class="form-check">
-                                            <label class="form-check-label" name="question">
-                                                <input class="form-check-input" type="checkbox">Desejo que encham meu saco por email!
+                                            <label class="form-check-label">
+                                                <br>
+                                                <br>
+                                                <input class="form-check-input" type="checkbox" name="question">Desejo que encham meu saco por email!
                                             </label>       
                                         </div>
                                     </div>
                                 </div>
-                            <div class="col-sm-3">
-                                <a tabindex="0" class="btn btn-secondary ml-6" role="button" data-toggle="popover" data-placement="left" data-trigger="focus" title="Pufff" data-content="chirrim chirrion">Help</a>
+                            <div class="col-sm-12" align="center">
+                                <br>
+                                <br>
                                 <button type="submit" class="btn btn-primary">Enviar</button>
+                                <a tabindex="0" class="btn btn-secondary ml-6" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Pufff" data-content="chirrim chirrion">Help</a>
+                                <br>
+                                <br>
                             </div>
                         </form>
                     </div>
